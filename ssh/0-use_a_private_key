@@ -1,3 +1,3 @@
-#!/usr/bn/env bash
-#The script that use the private Key
+#!/usr/bin/env bash
+# The script that use the private Key
 ssh -i ~/.ssh/school ubuntu@34.229.121.230
