@@ -8,3 +8,6 @@ echo "Holberton School for the win!" > /var/www/html/index.html
 
 # Restart Nginx
 sudo service nginx restart
+
+# Check the Nginx status code
+curl -sI localhost | grep -q "200 OK"
